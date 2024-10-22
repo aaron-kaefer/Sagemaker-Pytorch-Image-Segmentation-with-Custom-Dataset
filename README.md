@@ -24,9 +24,9 @@ The final processed dataset contains pairs of images and masks(labels). They are
        |––Train data
        |    |––Train Images
        |    |––Train Masks
-       |__Test data
+       |––Test data
             |––Test Images
-            |––Test Masks```
+            |––Test Masks´´´
 
 In this project the file hierarchy is named as follows:
 Name of S3 Bucket
