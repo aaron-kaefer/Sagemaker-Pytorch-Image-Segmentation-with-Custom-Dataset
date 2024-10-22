@@ -42,7 +42,7 @@ Name of S3 Bucket
                   |––masks
 ```
 
-Now lets pass the S3 directory where the training and test data is stored to our Sagemaker training job. This is done with the following code:
+Now lets pass the S3 directory where the training and test data is stored to our Sagemaker training job. This is done with the following code. The custom Dataloader is defined in the deeplab.py script.
 <img width="986" alt="Screenshot 2024-10-22 at 19 05 38" src="https://github.com/user-attachments/assets/0aba9bf9-dd94-43b2-8687-eca73edece32">
 <img width="981" alt="Screenshot 2024-10-22 at 18 34 27" src="https://github.com/user-attachments/assets/9108310e-12d1-465f-85af-dee803e0aa90">
 
