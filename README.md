@@ -19,14 +19,14 @@ Here is an example of the classfication result for two test images:
 # Storing the custom dataset in Amazon S3, creating a custom Dataloader, and setting the correct file paths
 The final processed dataset contains pairs of images and masks(labels). They are stored in an Amazon S3 bucket in the following hierarchy:
 
-'''S3 Bucket
+‘‘‘S3 Bucket
   |––Data
        |––Train data
        |    |––Train Images
        |    |––Train Masks
        |__Test data
             |––Test Images
-            |––Test Masks'''
+            |––Test Masks‘‘‘
 
 In this project the file hierarchy is named as follows:
 Name of S3 Bucket
