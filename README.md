@@ -7,7 +7,7 @@ Aaron Kaefer
 
 This project presents a solution to detecting roads from satellite images. The classifier consists of the fully Convolutional Neural Network DeeplabV3 which outputs for each pixel of an input image whether or not it is considered being part of a road.
 
-The model is trained on more than 6000 satellite images obtain a decent accuracy of 94.5% on the test set.
+The model is trained on more than 6000 satellite images obtain an accuracy of ~ 95% on the test set.
 
 This project has been developed to demonstrate how custom image datasets can be used to train PyTorch models on Amazon Sagemaker. The code can be used as an example on how to create a custom PyTorch dataloader with the necessary dependencies to operate with Amazon Sagemaker.
 
@@ -15,3 +15,25 @@ Here is an example of the classfication result for two test images:
 
 ![palu_tsunami_aoi_pre_img_90](https://github.com/user-attachments/assets/bddf443d-8032-47a3-8e02-09a74f32a211)
 ![infh_palu_tsunami_aoi_pre_img_90](https://github.com/user-attachments/assets/4ef5e670-f0bb-42d3-b9d1-764c8d5216e9))
+
+# Storing the custom dataset in Amazon S3, creating a custom Dataloader, and setting the correct file paths
+The final processed dataset contains pairs of images and masks(labels). They are stored in an Amazon S3 bucket in the following hierarchy:
+
+S3 Bucket
+  |__Data
+       |__Train data
+       |    |__Train Images
+       |    |__Train Masks
+       |__Test data
+            |__Test Images
+            |__Test Masks
+
+In this project the file hierarchy is named as follows:
+Name of S3 Bucket
+  |__sagemaker
+       |__train
+       |    |__images
+       |    |__masks
+       |__test
+            |__images
+            |__masks
