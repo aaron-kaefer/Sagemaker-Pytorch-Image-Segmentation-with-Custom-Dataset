@@ -28,10 +28,8 @@ The final processed dataset contains pairs of images and masks(labels). They are
             |––Test Images
             |––Test Masks
 ```
-
-
 In this project the file hierarchy is named as follows:
-Name of S3 Bucket
+```Name of S3 Bucket
   |––sagemaker
        |––train
        |    |––images
@@ -39,5 +37,5 @@ Name of S3 Bucket
        |––test
             |––images
             |––masks
-
+```
 
