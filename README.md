@@ -47,9 +47,9 @@ Now lets pass the S3 directory where the training and test data is stored to our
 <img width="981" alt="Screenshot 2024-10-22 at 18 34 27" src="https://github.com/user-attachments/assets/9108310e-12d1-465f-85af-dee803e0aa90">
 
 Finally let's write the custom PyTorch Dataloader to handle the custom image dataset properly:
-<img width="641" alt="Screenshot 2024-10-22 at 18 01 07" src="https://github.com/user-attachments/assets/b7aaf57d-f265-444e-b234-ab03cd8a7b67">
-<img width="749" alt="Screenshot 2024-10-22 at 18 00 47" src="https://github.com/user-attachments/assets/585d4336-5704-4a85-a4a6-1c10c110b3c8">
 <img width="675" alt="Screenshot 2024-10-22 at 18 00 00" src="https://github.com/user-attachments/assets/e1ce711c-c52f-46e4-bfc5-2fc9f008ffb6">
+<img width="749" alt="Screenshot 2024-10-22 at 18 00 47" src="https://github.com/user-attachments/assets/585d4336-5704-4a85-a4a6-1c10c110b3c8">
+<img width="641" alt="Screenshot 2024-10-22 at 18 01 07" src="https://github.com/user-attachments/assets/b7aaf57d-f265-444e-b234-ab03cd8a7b67">
 
 
 
