@@ -12,4 +12,6 @@ The model is trained on more than 6000 satellite images obtain a decent accuracy
 This project has been developed to demonstrate how custom image datasets can be used to train PyTorch models on Amazon Sagemaker. The code can be used as an example on how to create a custom PyTorch dataloader with the necessary dependencies to operate with Amazon Sagemaker.
 
 Here is an example of the classfication result for two test images:
+
+![palu_tsunami_aoi_pre_img_90](https://github.com/user-attachments/assets/bddf443d-8032-47a3-8e02-09a74f32a211)
 ![infh_palu_tsunami_aoi_pre_img_90](https://github.com/user-attachments/assets/4ef5e670-f0bb-42d3-b9d1-764c8d5216e9))
