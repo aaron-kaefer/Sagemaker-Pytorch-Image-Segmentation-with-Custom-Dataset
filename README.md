@@ -43,7 +43,7 @@ Name of S3 Bucket
 ```
 
 Now lets pass the S3 directory where the training and test data is stored to our Sagemaker training job. This is done with the following code:
-<img width="976" alt="Screenshot 2024-10-22 at 18 34 09" src="https://github.com/user-attachments/assets/40b6a39c-1075-4516-ae22-e408727369a7">
+<img width="986" alt="Screenshot 2024-10-22 at 19 05 38" src="https://github.com/user-attachments/assets/0aba9bf9-dd94-43b2-8687-eca73edece32">
 <img width="981" alt="Screenshot 2024-10-22 at 18 34 27" src="https://github.com/user-attachments/assets/9108310e-12d1-465f-85af-dee803e0aa90">
 
 
